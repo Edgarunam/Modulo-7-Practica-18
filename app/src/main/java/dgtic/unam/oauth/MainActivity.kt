@@ -132,7 +132,7 @@ class MainActivity : AppCompatActivity() {
     private fun alert() {
         val bulder = AlertDialog.Builder(this)
         bulder.setTitle("Mensaje")
-        bulder.setMessage("Se produjo un error, contacte al provesor")
+        bulder.setMessage("Error los datos son incorrectos")
         bulder.setPositiveButton("Aceptar", null)
         val dialog: AlertDialog = bulder.create()
         dialog.show()
